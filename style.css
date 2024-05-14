@@ -30,3 +30,21 @@ ul {
     display: flex;
     gap: 16px;
 }
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
