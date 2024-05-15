@@ -57,6 +57,7 @@ button {
     color: #f9faf8;
     border-radius: 15px;
     padding: 10px 30px;
+    font-weight: bold;
 }
 
 h2 {
@@ -77,13 +78,33 @@ h2 {
     display: flex;
 }
 
+.image {
+    border: 2px solid #3882f6;
+    height: 140px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.small {
+    height: 140px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+figcaption {
+    width: 140px;
+    margin-top: 5px;
+}
+
 .third {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 150px 300px;
+    padding: 200px 300px;
     height: 400px;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -91,8 +112,12 @@ h2 {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
+    display: flex;
 }
 
+.quote-text {
+    flex-shrink: 1;
+}
 .author {
     color: #1f2937;
     font-weight: bold;
@@ -110,7 +135,6 @@ h2 {
     border-radius: 15px;
     box-sizing: border-box;
     justify-content: space-around;
-
 }
 
 .fourth {
@@ -128,4 +152,8 @@ h2 {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+
+.call button {
+    border: 2px solid #f9faf8;
 }
